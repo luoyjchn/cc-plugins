@@ -1,4 +1,4 @@
-# luoyjchn-plugins
+# cc-plugins
 
 luoyjchn 的个人 Claude Code 插件市场（marketplace），通过 git submodule 聚合多个插件。
 
@@ -14,7 +14,7 @@ luoyjchn 的个人 Claude Code 插件市场（marketplace），通过 git submod
 在 Claude Code 中执行：
 
 ```
-/plugin marketplace add luoyjchn/luoyjchn-plugins
+/plugin marketplace add luoyjchn/cc-plugins
 /plugin install file-scope-guard
 /plugin install jetbrains-mcp-bridge
 ```
@@ -24,7 +24,7 @@ luoyjchn 的个人 Claude Code 插件市场（marketplace），通过 git submod
 ## 结构
 
 ```
-luoyjchn-plugins/
+cc-plugins/
 ├── .claude-plugin/
 │   └── marketplace.json     # 市场清单
 ├── plugins/

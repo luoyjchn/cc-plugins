@@ -1,6 +1,6 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
-  "name": "luoyjchn-plugins",
+  "name": "cc-plugins",
   "version": "1.0.0",
   "description": "Personal Claude Code plugin marketplace: file-scope-guard and jetbrains-mcp-bridge",
   "owner": {
