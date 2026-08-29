@@ -1,0 +1,6 @@
+[submodule "plugins/file-scope-guard"]
+	path = plugins/file-scope-guard
+	url = https://github.com/luoyjchn/file-scope-guard.git
+[submodule "plugins/jetbrains-mcp-bridge"]
+	path = plugins/jetbrains-mcp-bridge
+	url = https://github.com/luoyjchn/jetbrains-mcp-bridge.git

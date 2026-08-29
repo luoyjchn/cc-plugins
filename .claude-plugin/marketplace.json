@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "luoyjchn-plugins",
+  "version": "1.0.0",
+  "description": "Personal Claude Code plugin marketplace: file-scope-guard and jetbrains-mcp-bridge",
+  "owner": {
+    "name": "luoyjchn"
+  },
+  "plugins": [
+    {
+      "name": "file-scope-guard",
+      "version": "0.2.0",
+      "description": "跨平台删除文件作用域防护插件：默认仅允许在项目根目录内删除，可配置 allow/deny/ask 规则",
+      "source": "./plugins/file-scope-guard",
+      "author": {
+        "name": "file-scope-guard contributors"
+      },
+      "repository": "https://github.com/luoyjchn/file-scope-guard",
+      "license": "MIT"
+    },
+    {
+      "name": "jetbrains-mcp-bridge",
+      "version": "0.4.1",
+      "description": "Bridge JetBrains IDE features to Claude Code via MCP",
+      "source": "./plugins/jetbrains-mcp-bridge",
+      "author": {
+        "name": "luoyjchn"
+      },
+      "repository": "https://github.com/luoyjchn/jetbrains-mcp-bridge",
+      "license": "MIT"
+    }
+  ]
+}
