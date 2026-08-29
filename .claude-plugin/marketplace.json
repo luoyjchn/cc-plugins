@@ -9,7 +9,7 @@
   "plugins": [
     {
       "name": "file-scope-guard",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "description": "跨平台删除文件作用域防护插件：默认仅允许在项目根目录内删除，可配置 allow/deny/ask 规则",
       "source": "./plugins/file-scope-guard",
       "author": {
