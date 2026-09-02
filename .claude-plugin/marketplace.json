@@ -20,7 +20,7 @@
     },
     {
       "name": "jetbrains-mcp-bridge",
-      "version": "0.4.1",
+      "version": "0.4.2",
       "description": "Bridge JetBrains IDE features to Claude Code via MCP",
       "source": "./plugins/jetbrains-mcp-bridge",
       "author": {
