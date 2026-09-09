@@ -4,3 +4,6 @@
 [submodule "plugins/jetbrains-mcp-bridge"]
 	path = plugins/jetbrains-mcp-bridge
 	url = https://github.com/luoyjchn/jetbrains-mcp-bridge.git
+[submodule "plugins/session-bridge"]
+	path = plugins/session-bridge
+	url = https://github.com/luoyjchn/session-bridge.git

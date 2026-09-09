@@ -1,8 +1,8 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "cc-plugins",
-  "version": "1.0.0",
-  "description": "Personal Claude Code plugin marketplace: file-scope-guard and jetbrains-mcp-bridge",
+  "version": "1.1.0",
+  "description": "Personal Claude Code plugin marketplace: file-scope-guard, jetbrains-mcp-bridge and session-bridge",
   "owner": {
     "name": "luoyjchn"
   },
@@ -16,6 +16,17 @@
         "name": "file-scope-guard contributors"
       },
       "repository": "https://github.com/luoyjchn/file-scope-guard",
+      "license": "MIT"
+    },
+    {
+      "name": "session-bridge",
+      "version": "0.1.0",
+      "description": "把 CLI 会话同步到桌面端 Resume 列表（CLI ↔ 桌面端会话同步）",
+      "source": "./plugins/session-bridge",
+      "author": {
+        "name": "luoyjchn"
+      },
+      "repository": "https://github.com/luoyjchn/session-bridge",
       "license": "MIT"
     },
     {
